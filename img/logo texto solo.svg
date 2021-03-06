@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg45"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo texto solo.svg">
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="493.29138"
+     inkscape:cy="375.81035"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1.5242131,0,0,2.0650277,-46.316782,-128.60671)"
+       style="display:inline"
+       id="layer17">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:39.99971771px;line-height:125%;font-family:'AvantGarde LT Medium';-inkscape-font-specification:'AvantGarde LT Medium, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#e19e39;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path2076"
+         d="m 302.35865,517.7769 h 7.71181 c 9.742,9.9798 19.73275,19.6711 29.53202,29.59979 h -7.59225 c -9.73589,-10.0279 -19.80394,-19.67587 -29.65158,-29.59979 z"
+         transform="matrix(0.44342526,0,0,0.44342526,-17.882257,-97.613406)"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.62287331px;line-height:1.25;font-family:'AvantGarde LT Medium';-inkscape-font-specification:'AvantGarde LT Medium, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.76557171"
+       x="16.310398"
+       y="146.33997"
+       id="text43"
+       transform="scale(0.85603669,1.1681742)"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         x="16.310398"
+         y="146.33997"
+         style="stroke-width:0.76557171">CORPORI</tspan></text>
+    <g
+       transform="matrix(-1.5242131,0,0,2.0650277,333.90719,-128.51983)"
+       style="display:inline;fill:#000000"
+       id="layer17-8">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:39.99971771px;line-height:125%;font-family:'AvantGarde LT Medium';-inkscape-font-specification:'AvantGarde LT Medium, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path2076-1"
+         d="m 302.35865,517.7769 h 7.71181 c 9.742,9.9798 19.73275,19.6711 29.53202,29.59979 h -7.59225 c -9.73589,-10.0279 -19.80394,-19.67587 -29.65158,-29.59979 z"
+         transform="matrix(0.44342526,0,0,0.44342526,-17.882257,-97.613406)"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.03917694px;line-height:1.25;font-family:'AvantGarde LT Medium';-inkscape-font-specification:'AvantGarde LT Medium, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.80097938"
+       x="188.54764"
+       y="146.69275"
+       id="text65"
+       transform="scale(0.85641991,1.1676515)"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         x="188.54764"
+         y="146.69275"
+         style="stroke-width:0.80097938">HR</tspan></text>
+  </g>
+</svg>

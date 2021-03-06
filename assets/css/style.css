@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 242, 255);
+    padding-bottom: 15px;
+
+}
+.navbar {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 1% 0;
+}
+.nav-link:hover {
+    transition: all 0.1s;
+    text-decoration: solid;
+    text-shadow: grey;
+    font-weight: bold ;
+}
+@keyframes loguito {
+    0% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(600px);
+    }
+    25% {
+        transform: translateX(150px);
+    }
+    50% {
+        transform: translateX(750px);
+    }
+
+    75% { 
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.d-inline-block {
+    animation-name: loguito;
+    animation-duration: 7s;
+}
+
+.quienes-somos {
+    justify-content: center;
+    margin: 100px 0 20px 5%;
+    width: 90%;
+    background-color: rgb(197, 227, 253);
+    border: 1px rgb(44, 17, 163) solid;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.quienes-somos:hover {
+    transition: all 1s;
+    background-color: rgb(134, 204, 177);
+    transform: scale3d(1.1,1.1,2);
+}
+
+.quienes-somos:hover h1{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+.quienes-somos-contenido{
+    padding: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    margin-top: 2%;
+    text-shadow: slategrey;
+    font-size: 2em;
+}
+.servicios {
+    background-color: rgb(184, 184, 152);
+}
+.servicios:hover{
+    background-color: goldenrod;
+    color: rgb(0, 0, 126);
+    transition: ease-out 0.8s;
+    border: 2px rgb(30, 27, 78) solid;
+    border-radius: 20px;
+    
+}
+
+
+.servicios-container {
+   margin-top: 70px;
+    color: rgb(30, 27, 78);
+    background-color: rgb(184, 184, 152);
+    display: flex;
+    border: 2px rgb(30, 27, 78) solid;
+    border-radius: 10px;
+    padding: 20px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.servicios-container:hover .box{
+    transition: all 2s;
+    transform: scale(1.03);
+}
+
+
+.box {
+    height: 250px;
+    margin: 10px;
+    width: 40%;
+    background-color: rgba(248, 206, 142, 0.733);
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+   
+}
+
+.titleBox {
+    font-size: 1.8em;
+    font-family: monospace;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.imgservicio {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.imgselec {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.imgpsico {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.imgats {
+    width: 83px;
+    float: left;
+    margin-right: 10px;
+}
+
+.softimg {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+.contacto{
+    background-color: #c6d4e2;
+} 
+
+.contacto:hover{
+    background-color:  rgb(247, 231, 179);
+    color: rgb(18, 18, 53);
+    transition: ease-out 1s;
+    border: 2px rgb(194, 110, 0) solid;
+    border-radius: 20px;
+}
+
+.direccion p{
+    text-align: center;
+}
+.contactanos {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.client-form-header{
+    text-align: center;
+    border-radius: 3px;
+    background-color:  rgb(247, 231, 179);
+    border: 1px solid rgb(109, 181, 184);
+    width: 80%;
+    margin: 40px 0 40px 150px;
+    padding: 0px;
+}
+
+.contact-form{
+    background-color: #c6d4e2;
+    border: 1px solid #4c4a53;
+    border-radius: 3px;
+    width: 100%;
+    padding: 50px;
+    width: 80%;
+    margin: 40px 0 40px 150px;
+}
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-row input [type='text'],
+.form-row input [type='email'] {
+    background-color: #fff;
+    border: 1px solid #3f4041;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row label{
+    margin: 15px 10px;
+}
+
+.legacy-form-row{
+    border: none;
+    margin-bottom: 40px;
+}
+
+.legacy-form-row legend{
+    margin-bottom: 15px;
+}
+
+.form-row input [type='radio'] {
+    margin-top: 2px;
+}
+.form-row select{
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+}
+
+.form-row button{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #da8859;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.form-row button:hover{
+    background-color: #571804;
+    transform: scale(1.2);
+    transition: all 1s;
+    border-radius: 5px;
+
+}
+
+.map {
+    margin-top: 30px;
+}
