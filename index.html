@@ -27,6 +27,8 @@
     crossorigin="anonymous">
     <!-- Css propio -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <title>Corporix HR</title>
   </head>
 
@@ -35,7 +37,7 @@
   <!-- Comienzo de body -->
   <body>
     <!-- Encabezado/Barra de navegacion -->
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#home">
                 <img src="img/X.png" alt="logo de la X de corporix" width="30" height="24" class="d-inline-block align-top"> Corporix HR
@@ -83,33 +85,48 @@
     <!-- Fin de Home -->
 
     <!-- Comienzo de Quienes Somos -->
-    <section id="quienes-somos" class="quienes-somos">
-        <div class="titulo">
-      <h1>Quiénes somos</h1>
-      </div>
-      <div class="quienes-somos-contenido"><p>¿Necesitas encontrar al mejor talento? ¿Querés mejorar la productividad de la empresa, tanto con un mejor software a medida o transitando la transformación digital?
+    <section id="quienes-somos" class="qs-container">
+        <div class="quienes-somos">
+            <div class="titulo">
+                ¿Quienes somos? Salto al vacío
+            </div>
+            <div class="img">
+                <img src="img/saltando.png" alt="imagen de sujeto saltando al vacio">
+            </div>
+            <div class="contenido">
+                Corporix nacio de una idea de Andy Vazquez, consultor en RRHH apasionado por la tecnología, quien un día a comienzos de 2018 decide abandonar la vida empleado
+                profesional y saltar al vacío por el sueño de emprender. Pero, ¿Había agua?
+            </div>
+        </div>
+        <div class="quienes-somos">
+            <div class="titulo">
+                Cualquier rincón es oficina
+            </div>
+            <div class="img">
+                <img src="img/desksolo.svg" alt="emprendedor trabajando solo en un escritorio">
+            </div>
+            <div class="contenido">
+               Un emprendimiento ambicioso, con mucha pasión, pero con muchas dificultades al inicio. Requiero de mucho trabajo duro, armar esquemas de negocio, 
+               ofreciendo los servicios que mejor sabía ofrecer: consultoría en RRHH y Tecnología. Las jornadas de 12hs para dar el mejor servicio eran la norma.
+            </div>
+        </div>
+        <div class="quienes-somos">
+            <div class="titulo">
+                La excelencia rindió frutos
+            </div>
+            <div class="img">
+                <img src="img/equipo.svg" alt="equipo de profesionales">
+            </div>
+            <div class="contenido">
+                Los buenos resultados, el boca en boca y la participación de diversos eventos, programas de TV, entre otras cosas, hicieron crecer a Corporix a pasos
+                agigantados. Hoy somos un grupo interdisciplinario de profesionales ofreciendo el mejor servicio, y estamos en constante expansión!
+            </div>
+        </div>
 
-        Corporix HR Nació en 2018 como un emprendimiento que se venía gestando hace tiempo de manera informal
-        pero con mucha pasión. A principio de 2018 decidimos salir como empresa independiente, un emprendimiento
-        lleno de energía y sueños. Somos una compañía joven formada por profesionales capacitados y apasionados en
-        brindar consultoría personalizada y de calidad a Empresas, PyMEs y emprendimientos, focalizándonos en dos
-        grandes ramas:        RRHH y tech
+        </div>
 
 
-        Trabajamos como partners: Nos unimos a nuestro cliente tanto en el proceso y como también en su meta,
-        con la premisa de verlo crecer y así, crecer juntos.
-        Por eso nos involucramos con los actores haciéndonos partícipes, asesoramos en temas
-        complementarios si es necesario (Salarios, descripción de puestos, estructura, etc. –sin costo-)
-        y mantenemos contacto y feedback constante para corregir cualquier desvío.
-        Nos somos proveedores, somos parte del negocio.
-
-
-<br>
-<br>
-
-        Nos podrás encontrar en Bs As, Argentina y en Mallorca, España</p>
-      </div>
-    </div>
+    
     </section>
     <!-- Fin de quienes somos -->
     <!-- Comienzo de Servicios -->
@@ -136,7 +153,7 @@
         online validados. Nuestro objetivo es detectar el mejor match entre candidato y rol buscado</p>
     </div>
     <div class="box">
-      <p class="titleBox">ATS/Sistema de gestión de selección lowcost</p>
+      <p class="titleBox">ATS/Sistema de selección lowcost</p>
       <img src="img/ATS.svg" alt="imagen para el ATS/Software de RRHH" class="imgats">
       <p>Nuestro ATS hará que tus procesos de busqueda y selección de candidatos sean mucho mas sencillos y exitosos. 
         El ATS Corporix es veloz, intuitivo y facil de usar; tiene un poderoso motor de busqueda en BBDD, 
@@ -158,8 +175,6 @@
       <div class="contactanos">
       <p class="titulo contacto">Contactanos<p>
       <div class="direccion">
-        <p> Escribinos a <a href="mailto:hola@corporixhr.com">hola@corporixhr.com</a></p>
-
         <div class="client-form-header">
           <p class="titulo">Formulario para Contacto</p>
           <p>Completa con tus datos para que nos pongamos en contacto!</p>
@@ -186,7 +201,7 @@
     </div>
         <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6603224.619730046!2d-64.98408740224895!3d-36.08786217762487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbcef2814dcf%3A0x5ea056ddbe97f861!2sCorporix%20HR!5e0!3m2!1ses-419!2sar!4v1613164724580!5m2!1ses-419!2sar"
-      width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+      width="100%" height="450" frameborder="1" style="border:0;" allowfullscreen=""
       aria-hidden="false" tabindex="0"></iframe>
     </div>
   </section>
