@@ -250,7 +250,7 @@ body{
 .client-form-header{
     text-align: center;
     border-radius: 3px;
-    background-color:  rgb(247, 231, 179, .85);
+    background-color:  rgb(247, 231, 179);
     border: 1px solid rgb(109, 181, 184);
     width: 80%;
     margin: 40px 0 40px 150px;
